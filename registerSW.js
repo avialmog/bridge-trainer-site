@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/bridge-trainer-site/sw.js', { scope: '/bridge-trainer-site/' })})}
